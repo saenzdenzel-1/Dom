@@ -1,15 +1,15 @@
-const miDiv = document.querySelector('miDiv');
+const miDiv = document.querySelector('Dyv');
 const miBoton1 = document.querySelector('miBoton1');
 const miBoton2 = document.querySelector('miBoton2');
 const miBoton3 = document.querySelector('miBoton3');
 const miBoton4 = document.querySelector('miBoton4');
 
 miBoton1.addEventListener('click', () => {
-miDiv.textContent = '¡Hola Mundo!';
+Dyv.textContent = '¡Hola Mundo!';
 });
 
 miBoton2.addEventListener('click', () => {
-miDiv.style.backgroundColor = 'pink';
+Dyv.style.backgroundColor = 'pink';
 });
 
 
@@ -20,8 +20,8 @@ alert('¡Haz hecho clic!');
 
 miBoton4.addEventListener('click', () => {
 if (miDiv.style.display === 'none') {
-miDiv.style.display = 'block';
+Dyv.style.display = 'block';
 } else {
-miDiv.style.display = 'none';
+Dyv.style.display = 'none';
 }
 });
